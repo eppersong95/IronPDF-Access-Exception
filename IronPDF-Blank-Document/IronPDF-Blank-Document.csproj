@@ -14,11 +14,20 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="IronPdf" Version="2022.3.5084" />
+    <PackageReference Include="IronPdf" Version="2022.4.5455" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Access-Exception.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="BuggyPdf.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Invoice-2.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Wtf-Pod.pdf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
